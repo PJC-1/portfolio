@@ -1,7 +1,7 @@
 // Place all the styles related to the homes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.jumbotron {
+.homepage {
   background: url("http://s19.postimg.org/3rgqg9bz7/newbackground.jpg") no-repeat center fixed;
 
   -webkit-background-size: 100%;
@@ -14,12 +14,64 @@
 
   background-size: 100%;
 
-  height: 380px;
+  height: 500px;
+
+}
+
+.projects {
+  background: url("http://s19.postimg.org/6zl7tay8z/projects.jpg") no-repeat center fixed;
+
+  -webkit-background-size: 100%;
+
+  -moz-background-size: 100%;
+
+  -ms-background-size: 100%;
+
+  -o-background-size: 100%;
+
+  background-size: 100%;
+
+  height: 500px;
+
+}
+
+.contacts {
+  background: url("http://s19.postimg.org/etltep61v/contact.jpg") no-repeat center fixed;
+
+  -webkit-background-size: 100%;
+
+  -moz-background-size: 100%;
+
+  -ms-background-size: 100%;
+
+  -o-background-size: 100%;
+
+  background-size: 100%;
+
+  height: 500px;
+
+}
+
+.abouts {
+  background: url("http://s19.postimg.org/ifw8531sz/mac_glasses.jpg") no-repeat center fixed;
+
+  -webkit-background-size: 100%;
+
+  -moz-background-size: 100%;
+
+  -ms-background-size: 100%;
+
+  -o-background-size: 100%;
+
+  background-size: 100%;
+
+  height: 500px;
 
 }
 
 .jumbotron h1 {
   text-align: center;
-  font-size: 110px;
+  font-size: 125px;
+  font-weight: bolder;
   color: #FFEE00;
 }
