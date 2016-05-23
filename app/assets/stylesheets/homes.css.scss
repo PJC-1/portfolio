@@ -1,0 +1,25 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.jumbotron {
+  background: url("http://s19.postimg.org/3rgqg9bz7/newbackground.jpg") no-repeat center fixed;
+
+  -webkit-background-size: 100%;
+
+  -moz-background-size: 100%;
+
+  -ms-background-size: 100%;
+
+  -o-background-size: 100%;
+
+  background-size: 100%;
+
+  height: 380px;
+
+}
+
+.jumbotron h1 {
+  text-align: center;
+  font-size: 90px;
+  color: #FFEE00;
+}
