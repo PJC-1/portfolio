@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .homepage {
-  background: url("http://s19.postimg.org/3rgqg9bz7/newbackground.jpg") no-repeat center fixed;
+  background: url("http://s19.postimg.org/3rgqg9bz7/newbackground.jpg") no-repeat center;
 
   -webkit-background-size: 100%;
 
@@ -19,7 +19,7 @@
 }
 
 .projects {
-  background: url("http://s19.postimg.org/6zl7tay8z/projects.jpg") no-repeat center fixed;
+  background: url("http://s19.postimg.org/6zl7tay8z/projects.jpg") no-repeat center;
 
   -webkit-background-size: 100%;
 
@@ -36,7 +36,7 @@
 }
 
 .contacts {
-  background: url("http://s19.postimg.org/etltep61v/contact.jpg") no-repeat center fixed;
+  background: url("http://s19.postimg.org/etltep61v/contact.jpg") no-repeat center;
 
   -webkit-background-size: 100%;
 
@@ -53,7 +53,7 @@
 }
 
 .abouts {
-  background: url("http://s19.postimg.org/ifw8531sz/mac_glasses.jpg") no-repeat center fixed;
+  background: url("http://s19.postimg.org/ifw8531sz/mac_glasses.jpg") no-repeat center;
 
   -webkit-background-size: 100%;
 
@@ -70,8 +70,16 @@
 }
 
 .jumbotron h1 {
+  font-family: 'Work Sans', sans-serif;
   text-align: center;
-  font-size: 125px;
-  font-weight: bolder;
+  font-size: 126px;
+  font-weight: 900;
   color: #FFEE00;
+}
+.jumbotron p {
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 100;
+  color: white;
 }
