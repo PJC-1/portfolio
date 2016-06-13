@@ -1,0 +1,83 @@
+.aboutclass {
+  font-size: 17px;
+}
+
+div#container {
+  display: table;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 900px;
+  line-height: 1.5;
+}
+div#container img {
+  width: 55%;
+  height: auto;
+  margin-right: -20%;
+  margin-left: 20px;
+  float: right;
+  margin-bottom: 20px;
+}
+div#leftcol, div#rightcol { display: table-cell; padding: 1em; }
+div#leftcol { width: 50%; }
+div#rightcol { width: 40%; }
+div#rightcol:before {
+  content: " ";
+  float: left;
+  width: 25%;
+  padding-top: 102%;
+}
+div#rightcol p:first-child {
+  margin-bottom: 2rem;
+}
+@media all and (max-width: 800px) {
+  div#container { width: 90%; }
+}
+@media all and (max-width: 600px) {
+  div#leftcol, div#rightcol { display: table-row; }
+  div#rightcol:before { content: none; }
+  div#container img {
+    margin-right: 0;
+  }
+  div#rightcol p:first-child {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+}
+
+
+
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+	width: 30px;
+  height: 30px;
+	color: #000;
+	background-color: #FFF;
+	border: 1px solid #000;
+	padding-top: 6px;
+	border-radius: 22px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-o-border-radius: 22px;
+}
+
+.socialbtns .fa:hover {
+	color: #FFF;
+	background-color: #000;
+	border: 1px solid #000;
+}
