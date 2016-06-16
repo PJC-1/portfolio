@@ -60,13 +60,45 @@
 
 }
 
-.jumbotron h1 {
-  font-family: 'Work Sans', sans-serif;
-  text-align: center;
-  font-size: 126px;
-  font-weight: 900;
-  color: #FFEE00;
+
+@media (min-width: 300px) {
+  .titles {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: #FFEE00;
+    font-size: 95px;
+    font-weight: 800;
+    padding-top: 80px;
+  }
 }
+@media (min-width: 500px) {
+  .titles {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: #FFEE00;
+    font-size: 105px;
+    font-weight: 800;
+  }
+}
+@media (min-width: 700px) {
+  .titles {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: #FFEE00;
+    font-size: 115px;
+    font-weight: 900;
+  }
+}
+@media (min-width: 900px) {
+  .titles {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: #FFEE00;
+    font-size: 125px;
+    font-weight: 900;
+  }
+}
+
 .abouts p {
   font-family: 'Work Sans', sans-serif;
   text-align: center;

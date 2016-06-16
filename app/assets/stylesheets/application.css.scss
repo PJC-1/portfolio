@@ -1,11 +1,11 @@
 /*
- *= require_tree .
  *= require_self
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "homes";
  @import "projects";
+ @import "abouts";
 
 
  .navbar {

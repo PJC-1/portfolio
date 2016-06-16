@@ -81,3 +81,42 @@ a, a:hover {
 	background-color: #000;
 	border: 1px solid #000;
 }
+
+
+@media (min-width: 300px) {
+  .aboutstitle {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: #FFEE00;
+    font-size: 855px;
+    font-weight: 800;
+    padding-top: 80px;
+  }
+}
+@media (min-width: 500px) {
+  .aboutstitle {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: #FFEE00;
+    font-size: 95px;
+    font-weight: 800;
+  }
+}
+@media (min-width: 700px) {
+  .aboutstitle {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: #FFEE00;
+    font-size: 105px;
+    font-weight: 900;
+  }
+}
+@media (min-width: 900px) {
+  .aboutstitle {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: #FFEE00;
+    font-size: 110px;
+    font-weight: 900;
+  }
+}
