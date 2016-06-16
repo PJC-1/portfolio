@@ -99,27 +99,41 @@
   }
 }
 
-.abouts p {
-  font-family: 'Work Sans', sans-serif;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 100;
-  color: black;
+@media (min-width: 300px) {
+  .homep {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+  }
 }
-.projects p {
-  font-family: 'Work Sans', sans-serif;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 100;
-  color: white;
+@media (min-width: 500px) {
+  .homep {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: white;
+  }
 }
-
-.homepage p {
-  font-family: 'Work Sans', sans-serif;
-  text-align: center;
-  font-size: 38px;
-  font-weight: 100;
-  color: white;
+@media (min-width: 700px) {
+  .homep {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+  }
+}
+@media (min-width: 900px) {
+  .homep {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+  }
 }
 
 .modal-footer {
