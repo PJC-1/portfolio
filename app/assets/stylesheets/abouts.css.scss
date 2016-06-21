@@ -98,7 +98,7 @@ a, a:hover {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
     color: #FFEE00;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 800;
     padding-top: 75px;
   }
@@ -163,5 +163,27 @@ a, a:hover {
     font-weight: 200;
     color: white;
     text-shadow: 1px 1px black;
+  }
+}
+
+
+@media (min-width: 320px) {
+  .hrabout {
+    margin-top: 5px;
+  }
+}
+@media (min-width: 500px) {
+  .hrabout {
+    margin-top: 15px;
+  }
+}
+@media (min-width: 700px) {
+  .hrabout {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 900px) {
+  .hrabout {
+    margin-top: 65px;
   }
 }
