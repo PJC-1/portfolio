@@ -188,3 +188,15 @@ a, a:hover {
     margin-top: 65px;
   }
 }
+
+@media (min-width: 320px) {
+  .pdfbtn {
+    margin-left: -20px;
+
+  }
+}
+
+.glyphicon-download-alt {
+  font-size: 20px;
+
+}
